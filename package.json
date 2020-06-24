@@ -1,0 +1,25 @@
+{
+  "name": "neo4j_connector",
+  "version": "1.0.0",
+  "description": "REST connector for Neo4j, e.g. for Qlik",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "Neo4j",
+    "Qlik",
+    "Qlik",
+    "Sense",
+    "QlikView",
+    "graph",
+    "database",
+    "connector"
+  ],
+  "author": "@QlikRockstar",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.17.1",
+    "neo4j-driver": "^4.1.0"
+  }
+}
