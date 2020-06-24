@@ -10,11 +10,13 @@ Then you can run the webservice with
 
 # Writing cyphers / get the data
 Submit a GET request to http://localhost:1337/database/:id for pre defined cypher and CSV output (e.g.  http://localhost:1337/database/neo4j)
+
 or
+
 Submit a GET request to http://localhost:1337/generic/neo4j?cypher=XXX where XXX is your cypher for JSON output (e.g. http://localhost:1337/generic/neo4j?cypher=MATCH (n) RETURN count(n) as count), and yes, you can use the blankspaces in the URL as they will get encoded correctly.
 
 # Optional
-You can install the REST service as a windows service using tools like NSSM.
+You can install the REST service as a windows service using tools like NSSM (https://nssm.cc/).
 
 # Disclaimer
 This is not tested whatsoever. Use it on your own risk.
