@@ -22,4 +22,4 @@ You can install the REST service as a windows service using tools like NSSM (htt
 This is not tested whatsoever. Use it on your own risk.
 
 # Licence
-Do whatever you want.
+Do whatever you want, but obey licences from used packages.
